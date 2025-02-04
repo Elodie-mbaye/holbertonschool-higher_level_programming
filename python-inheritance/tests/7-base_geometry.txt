@@ -95,4 +95,4 @@ Testing __doc__:
     Represent base geometry.
 
     >>> print(BaseGeometry.area.__doc__)
-    Exception
+    not implemented
