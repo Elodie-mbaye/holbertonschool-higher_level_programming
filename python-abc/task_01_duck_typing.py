@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Abstract class and method"""
+
 from abc import ABC, abstractmethod
 import math
 
