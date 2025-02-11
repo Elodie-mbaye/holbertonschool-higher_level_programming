@@ -16,7 +16,7 @@ def serialize_and_save_to_file(data, filename):
 
 def load_and_deserialize(filename):
     """
-    Loads and deserializes data from the specified file
+    loads and deserializes data from the specified file
     """
     with open(filename, 'r', encoding='utf-8') as file:
-        return json.Loads(file)
+        return json.load(file)
